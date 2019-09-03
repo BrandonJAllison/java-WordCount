@@ -24,7 +24,7 @@ public class Main {
 
         Collections.sort(top50, (w1, w2) -> w2.getValue() - w1.getValue());
 
-        System.out.println("\n***\n");
+        System.out.println("\n*******Top 50*******\n");
         for (int i = 1; i < 51; i++) {
             System.out.println((i) + ". " + top50.get(i).getKey() + " (" + top50.get(i).getValue() + ")");
         }
